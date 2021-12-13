@@ -69,3 +69,7 @@ export class ZooController {
 
   }
 }
+
+// printListItem() {
+//   return `<li onclick="restaurantController.order('${this.name}')"</li>`
+// }

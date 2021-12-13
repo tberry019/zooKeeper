@@ -1,3 +1,35 @@
 import { ZooController } from "./Controllers/ZooController.js";
+import { Alligator } from "./Models/Alligator.js";
+import { Bear } from "./Models/Bear.js";
+import { Capybara } from "./Models/Capybara.js";
+import { Dolphin } from "./Models/Dolphin.js";
+import { Elephant } from "./Models/Elephant.js";
+import { Flamingo } from "./Models/Flamingo.js";
+import { Gecko } from "./Models/Gecko.js";
+import { Horse } from "./Models/Horse.js";
+import { Impala } from "./Models/Impala.js";
+import { Jaguar } from "./Models/Jaguar.js";
+import { Koala } from "./Models/Koala.js";
+import { Lion } from "./Models/Lion.js";
+import { Monkey } from "./Models/Monkey.js";
+import { Narwhal } from "./Models/Narwhal.js";
+import { Octopus } from "./Models/Octopus.js";
+import { Penguin } from "./Models/Penguin.js";
+import { Quail } from "./Models/Quail.js";
+import { Rhino } from "./Models/Rhino.js";
+import { Shark } from "./Models/Shark.js";
+import { Turtle } from "./Models/Turtle.js";
+import { Unau } from "./Models/Unau.js";
+import { Vulture } from "./Models/Vulture.js";
+import { Wolf } from "./Models/Wolf.js";
+import { Xenops } from "./Models/Xenops.js";
+import { Yeti } from "./Models/Yeti.js";
+import { Zebra } from "./Models/Zebra.js";
 
 const ZooControler = new ZooController()
+
+const list = [Alligator, Bear, Capybara, Dolphin, Elephant, Flamingo, Gecko, Horse, Impala, Jaguar, Koala, Lion, Monkey, Narwhal, Octopus, Penguin, Quail, Rhino, Shark, Turtle, Unau, Vulture, Wolf, Xenops, Yeti, Zebra]
+
+// list.forEach(a => a.print())
+
+window['ZooController'] = ZooController
